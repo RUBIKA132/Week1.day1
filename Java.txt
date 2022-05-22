@@ -1,0 +1,37 @@
+
+       Answer All the Question
+1. Explain about the main method in java?
+Java main method is the entry point of any java program. Its syntax is always
+ public static void main(String[] args).
+2. What are the different Control flows Statements available in java?
+1) Decision Making Statements.
+ 2) Looping Statements. 
+3) Branching Statements.
+3. What is the Difference between break and continue statements?
+The break statement is used to terminate the loop immediately. The continue statement is used to skip the current iteration of the loop. The break keyword is used to indicate break statements in java programming. The continue keyword is used to indicate continue statement in java programming.
+4. What is an Array? How will you declare an array in java?
+An array is a collection of elements of the same type placed in continuous memory locations that can be 
+Individually referenced by using an index to a unique identifier. Five values of type int can be 
+Declared as an array without having to declare five different variables.
+5.When will you get Array Index Out Of Bounds Exception?
+The Array Index out Of Bounds Exception occurs whenever we are trying to access any item of an array 
+at an index which is not present in the array. 
+6. Define the Syntax to create an object for a class. What are the naming conventions to be followed while creating a class, method and a variable. Explain with examples
+In Java, the new keyword is used to create new objects. Declaration − A variable declaration with a variable name with an object type. 
+ The 'new' keyword is used to create the object. The 'new' keyword is followed by a call to a constructor.
+Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized. Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. 
+7. What is Variable? How will you declare variables in java?
+A variable is a place to store a piece of data. It has a name, a value, and a type.They are symbolic representations of any numbers.
+8. What is String in java? Is it a Data Type?
+String is a class in java and reference data type. String is a array of character so it is not a primitive data type. A string is a special data type in java, where it contradicts the fact that non-primitive types are defined by programmers. 
+9. What are the different ways to create the String Object in java?
+1) Using String literal. 
+You can create String objects with String literal.
+2) Using new keyword.
+ This is the common way to create a String object in java.
+3) Using character array. 
+You could also convert character array into String here.
+10. What is the Difference between .Equals and ==?
+ equals()  is that one is a method, It evaluates to comparison of values in the objects.
+== is the operator ,  checks if both objects point to the same memory location .
+
