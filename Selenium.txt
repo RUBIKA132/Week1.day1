@@ -1,0 +1,46 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Web driver.
+Selenium is an automation testing tool used to test web-based applications. Selenium is not a single tool but a suite of tools. There are four components of Selenium – Selenium IDE, RC, Web Driver, and Grid. Selenium Web Driver is a browser automation framework that accepts commands and sends them to a browser. It is implemented through a browser-specific driver. It controls the browser by directly communicating with it. Selenium Web Driver supports Java, C#, PHP, Python, Perl, Ruby.
+2) How does Selenium communicate with the Web browsers?
+To communicate between server and client (browser), selenium web driver uses JSON. JSON Wire Protocol is a REST API that transfers the information between HTTP servers. Each Browser Driver has its own HTTP server.
+3) What are the locators available to find an element using Selenium?
+        1)Id
+	2)Class name
+	3)Tag Name
+	4)Link Text
+	5)Class Partial
+	6)Link text
+	7)Xpath
+	8)CSS Selector
+4. Why ID is preferable than X-Path?
+ ID is considered as unique key so there cannot be more than 1 elements for same ID while Xpath is created using relative path/position of elements, so there can be cases when we can get two or more elements for same Xpath.
+5. How to select value in dropdown?
+	1)Select the dropdown using find element
+	2)Create a object for selected class
+	3)Select by index
+	4)Select by value select by visible Text
+	5)getoptions()
+	6)getfirstselectoption()
+	7)getallselectoption()
+	8)deselect by value( )
+	9)deselect by index( )
+	10)deselect by visible text( )
+	11)deselect All( )
+
+
+
+6) What is the difference between Absolute Path and Relative Path?
+An absolute path is a complete path from start of actual file system from / directory. Relative path is defined as the path related to the present working directly
+7) How to verify if the given check box is checked or not (it is not taught but you can explore) Try here: http://leafground.com/pages/checkbox.html
+In order to check if a checkbox is checked or unchecked ,it can used the is seleceted()method over the checkbox element.
+The is selected( ) method returns a boolean value of true if the checkbox is checked false otherwise.
+8) Difference between System. set Property and Web Driver Manager
+ The property Name represents the name of the browser-specific driver, and the value points to the path of that browser driver. Example: System.
+Web Driver Manager automates the browser setup in the Selenium code.
+9) Write the syntax for preceding and following x-paths.
+Following
+Xpath =/ / *[@attribute='value']/ / following::input
+Preceding
+Xpath =/ / *[@attribute='value']/ / preceding::input
+
+10) How to get an attribute value using Selenium Web Driver?
+The get Attribute () method of the Element interface returns the value of a specified attribute on the element. If the given attribute does not exist, the value returned will either be null or "" (the empty string).
